@@ -1,0 +1,5 @@
+﻿Chuong trinh Server:
+- Có các hàm tính toán cho client yêu cầu
+- Khi client yêu cầu thì lệnh của client phải tuân theo cú pháp:
+	[Mã hàm]; [Tham số 1, Tham số 2, ...]<EOF>
+	
