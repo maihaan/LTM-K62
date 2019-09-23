@@ -21,7 +21,7 @@ namespace Client
         public String Send()
         {
             // Buoc 1: Chuyen doi du lieu
-            byte[] buffer = Encoding.UTF8.GetBytes(Data);
+            byte[] buffer = Encoding.UTF8.GetBytes(Data + "<EOF>");
 
             // Buoc 2: Mo ket noi den may chu va gui du lieu
             IPAddress serverIP = IPAddress.Parse(IP);
@@ -43,7 +43,9 @@ namespace Client
                         // Nhan tra loi tu server
                         byte[] revBuffer = new byte[10];
                         int revCount = sk.Receive(revBuffer);
-                        if(count != revCount)
+                        String dlNhan = Encoding.UTF8.GetString(revBuffer);
+                        int byteRev = int.Parse(dlNhan);
+                        if(count != byteRev)
                         {
                             return "E2"; // Nhan khong het
                         }

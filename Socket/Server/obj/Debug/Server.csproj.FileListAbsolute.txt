@@ -1,0 +1,6 @@
+D:\Projects\LTMK62\Socket\Server\bin\Debug\Server.exe
+D:\Projects\LTMK62\Socket\Server\bin\Debug\Server.pdb
+D:\Projects\LTMK62\Socket\Server\obj\Debug\Server.csproj.CoreCompileInputs.cache
+D:\Projects\LTMK62\Socket\Server\obj\Debug\Server.exe
+D:\Projects\LTMK62\Socket\Server\obj\Debug\Server.pdb
+D:\Projects\LTMK62\Socket\Server\obj\Debug\Server.csprojAssemblyReference.cache

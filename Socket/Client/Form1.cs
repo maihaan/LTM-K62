@@ -39,6 +39,8 @@ namespace Client
 
                 // Hien thi ket qua len lich su tin nhan
                 tbLichSu.Text += "[Đã nhận]\r\n";
+                tbNoiDung.Text = "";
+                tbNoiDung.Focus();
             }
             else
             {
